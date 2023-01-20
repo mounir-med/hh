@@ -1,0 +1,68 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    width: 400px;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.fk {
+    display: flex;
+    background-color: DodgerBlue;
+}
+  
+.fk > div {
+    background-color: #450e0e;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.rg {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+  
+.rg > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.op {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(84, 85, 86);
+}
+  
+.op > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.qs {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(93, 12, 137);
+  }
+  
+.qs > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
